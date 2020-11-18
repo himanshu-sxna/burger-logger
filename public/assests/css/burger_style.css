@@ -1,0 +1,37 @@
+html,
+body {
+    font-family: 'Source Code Pro', monospace;
+}
+
+#body-box {
+    background-color: #ffffed;
+}
+
+
+#heading{
+    font-size: 3.5em;
+}
+
+#head-img {
+    height: 125px;
+    width: auto;
+}
+
+.mid-img {
+    height: 50px;
+    width: auto;
+}
+
+.mid-heading {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.list {
+    list-style: none;
+}
+
+.devour-icon {
+    height: 32px;
+    width: auto;
+}
