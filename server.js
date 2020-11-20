@@ -16,11 +16,11 @@ app.set("view engine", "handlebars");
 // deliver static files in assets folder
 app.use("/public",express.static(path.join(__dirname, "public")));
 
-app.get("/", function(req, res) {
+const routes = require("./controllers/burgers_controllers.js");
 
-    res.render("index");
-})
+app.use(routes);
+
 
 app.listen(PORT, ()=> {
     console.log(`App listening on PORT: ${PORT}`);
-})
+});
