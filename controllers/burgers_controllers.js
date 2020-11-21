@@ -14,7 +14,7 @@ router.get("/", function(req, res) {
     })
 })
 
-router.put("/api/update/:burger_name", function(req, res) {
+router.post("/api/update/:burger_name", function(req, res) {
 
     let burgerToUpdate = req.params.burger_name;
     

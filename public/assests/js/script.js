@@ -5,7 +5,7 @@ $(document).ready(function(){
         let burger_name = $(this).siblings("span").html();
 
         $.ajax("/api/update/" + burger_name, {
-            type: "PUT",
+            type: "POST",
         }).then(
             function() {
                 location.reload();
