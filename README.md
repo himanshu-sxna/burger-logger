@@ -36,9 +36,9 @@ The App is deployed via [Heroku](https://intense-atoll-91338.herokuapp.com/)
 
 ![App Home](/demo/img/app.png)
 
-![Demo of burgerLogger](demo/demo.gif)
+![Demo of burgerLogger](/demo/demo.gif)
 
-[Link to demo video]()
+[Link to demo video](https://drive.google.com/file/d/1PkUX6zDpLA2Agpai6rtFxsfujJ0mwxax/view)
 
 ## <a name="license"></a>License
 
