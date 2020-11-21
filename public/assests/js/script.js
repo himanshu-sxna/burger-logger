@@ -2,7 +2,7 @@
 $(document).ready(function(){
 
     $(".devour-btn").on("click", function(){
-        let burger_name = $(this).siblings("span").html();
+        let burger_name = $(this).siblings("span").text();
 
         $.ajax("/api/update/" + burger_name, {
             type: "POST",

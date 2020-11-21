@@ -16,6 +16,8 @@ router.get("/", function(req, res) {
 
 router.post("/api/update/:burger_name", function(req, res) {
 
+    console.log(req);
+
     let burgerToUpdate = req.params.burger_name;
     
     burger.devourBurger(burgerToUpdate, function(result){
