@@ -25,7 +25,7 @@ Change database password and user in `./modules/server.js` to connect to databas
 
 Open `http://localhost:8080/` in the browser.
 
-The App is deployed on ![Heroku](https://intense-atoll-91338.herokuapp.com/)
+The App is deployed via [Heroku](https://intense-atoll-91338.herokuapp.com/)
 
 ## <a name="usage"></a>Usage
 
