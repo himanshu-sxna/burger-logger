@@ -2,7 +2,8 @@
 
 ![Node 14.3.1](https://img.shields.io/badge/node-14.3.1-red)
 ![MySQL](https://img.shields.io/badge/db-MySQL-red)
-![Heroku](https://img.shields.io/badge/deploy-Heroku--system-orange)
+![Heroku](https://img.shields.io/badge/deploy-Heroku--orange)
+![JawsDB](https://img.shields.io/badge/deploy-JawsDB--orange)
 ![License Badge](https://img.shields.io/badge/license-MIT-green)
 
  A burger logger created with MySQL, Node, Express, Handlebars and a custom ORM, deployed on Heroku using JawsDB.
